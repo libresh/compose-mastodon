@@ -41,8 +41,8 @@ services:
     - redis
     volumes:
     - ./public/assets:/mastodon/public/assets
+    - ./public/packs:/mastodon/public/packs
     - ./public/system:/mastodon/public/system
-    - /mastodon/public
     networks:
     - back
   streaming:

@@ -7,7 +7,7 @@ networks:
 services:
   db:
     restart: always
-    image: postgres:alpine
+    image: postgres:9.6-alpine
     networks:
     - back
     volumes:

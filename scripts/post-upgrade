@@ -1,0 +1,4 @@
+#!/bin/bash -eux
+URL=${PWD##*/}
+
+docker-compose exec app bundle exec rails db:migrate assets:precompile

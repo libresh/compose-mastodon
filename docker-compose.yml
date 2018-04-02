@@ -43,6 +43,7 @@ services:
     - ./public/assets:/mastodon/public/assets
     - ./public/packs:/mastodon/public/packs
     - ./public/system:/mastodon/public/system
+    - ./tmp:/mastodon/tmp
     networks:
     - back
   streaming:
@@ -66,5 +67,6 @@ services:
     volumes:
     - ./public/system:/mastodon/public/system
     - ./public/packs:/mastodon/public/packs
+    - ./tmp:/mastodon/tmp
     networks:
     - back

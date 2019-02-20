@@ -1,2 +1,1 @@
-# mastodon
-Mastodon application for libre.sh 
+moved to https://lab.libreho.st/libre.sh/compose/mastodon
